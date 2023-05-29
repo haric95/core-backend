@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StartTime": {
+      "type": "datetime"
+    },
+    "EndTime": {
+      "type": "datetime"
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Art",
+        "Fashion",
+        "Social",
+        "Food"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
