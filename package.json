@@ -1,4 +1,4 @@
-{
+f{
   "name": "core-backend",
   "private": true,
   "version": "0.1.0",
@@ -25,8 +25,8 @@
     "uuid": "18709d9e-4221-40d4-a8f7-56e6feee6dbf"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": "<=14.x.x",
+    "npm": "<=6.x.x"
   },
   "license": "MIT"
 }
